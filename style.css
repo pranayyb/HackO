@@ -1,0 +1,20 @@
+#text-overlay {
+    position: absolute; /* Positioned absolutely relative to the viewport */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust positioning as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+    display: none; /* Initially hidden */
+  }
+    
+  #extracted-text {
+    color: white; /* Text color for readability */
+  }
+  
+  #copy-button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
