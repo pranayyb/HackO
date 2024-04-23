@@ -1,20 +1,37 @@
-#text-overlay {
-    position: absolute; /* Positioned absolutely relative to the viewport */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust positioning as needed */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+/* #text-overlay { */
+    /* position: absolute; Positioned absolutely relative to the viewport */
+    /* top: 50%; Center vertically */
+    /* left: 50%; Center horizontally */
+    /* transform: translate(-50%, -50%); Adjust positioning as needed */
+    /* background-color: rgba(0, 0, 0, 0.5); Semi-transparent background */
+    /* padding: 10px; */
+    /* border-radius: 5px; */
+    /* display: none; Initially hidden */
+  /* } */
+    
+  /* #extracted-text { */
+    /* color: white; Text color for readability */
+  /* } */
+  
+  /* #copy-button { */
+    /* padding: 5px 10px; */
+    /* cursor: pointer; */
+  /* } */
+  
+  #text-overlay {
+    position: absolute;
+    top: 10px;
+    right: 10px; /* Adjust positioning as needed */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
     padding: 10px;
     border-radius: 5px;
     display: none; /* Initially hidden */
-  }
-    
-  #extracted-text {
-    color: white; /* Text color for readability */
+    z-index: 100; /* Ensure overlay is above other elements */
   }
   
-  #copy-button {
-    padding: 5px 10px;
+  #close-button {
+    float: right;
     cursor: pointer;
   }
   

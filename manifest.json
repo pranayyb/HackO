@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Text Overlay",
+    "version": "1.0",
+    "description": "A simple extension that adds a text overlay to YouTube videos",
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["script.js"]
+      }
+    ],
+    "permissions": ["activeTab"]
+}
+  
